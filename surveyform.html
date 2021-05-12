@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+ 
+      
+  <title>Survey Form</title>
+</head>
+<body> 
+  <form action="" method="post">
+    <div class="parent-div"> 
+    <div>
+     <b><label for="">Name</label></b>
+      <label  style="color:red" for="asterik">*</label>
+    </div>
+    <div > 
+      <div class="left-div">      
+    <div>
+      <input type="text" placeholder=" " name="name" id="name" class="textbox" required/><br>First
+    </div>
+    </div>
+    
+    <div class="right-div">
+      <div>
+      <input type="text" placeholder=" " name="name" id="name" class="textbox" required/><br>Last
+    </div>
+  </div>
+</div>
+<br>
+<div class="left-div">
+ <b><label for="">Email</label></b>
+  <label  style="color:red" for="asterik">*</label>
+  <br>
+  <input type="text" placeholder=" " name="name" id="name" class="textbox" width="60%" required/>
+<br>
+  <br>
+<div>
+ <b><label for="">Your Experience</label></b>
+  <label  style="color:red" for="asterik">*</label>
+</div>
+<div>
+<div class="left-div">
+    <div class="rate" >
+      <input type="radio" id="star5" name="rate" value="5" />
+      <label for="star5" title="text">5 stars</label>
+      <input type="radio" id="star4" name="rate" value="4" />
+      <label for="star4" title="text">4 stars</label>
+      <input type="radio" id="star3" name="rate" value="3" />
+      <label for="star3" title="text">3 stars</label>
+      <input type="radio" id="star2" name="rate" value="2" />
+      <label for="star2" title="text">2 stars</label>
+      <input type="radio" id="star1" name="rate" value="1" />
+      <label for="star1" title="text">1 star</label>
+      </div>
+    </div>
+  </div>
+      <br>
+      <div>
+      <label for="">Overall,how would you rate your experience with us?</label></div>
+      <br>
+
+       <div>
+     <b> <label for="">How satisfied are you with</label></b>
+      <label  style="color:red" for="asterik">*</label>
+      </div>
+      <div>
+      
+        
+        <style>
+          table {
+              border-collapse: collapse;
+              width: 100%;
+            
+          }
+            
+          th, td {
+              text-align: left;
+              padding: 10px;
+              width: 100%;
+          }
+            
+          tr:nth-child(even) {
+              background-color: lightgray;
+          }
+      </style>
+
+  <table style="width:100%;text-align:center";>
+          
+    <td></td>
+    <td><label for=""><center>Very Unsatisfied</center></label></td>
+    <td><label for=""><center>Unsatisfied</center></label></td>
+    <td><label for=""><center>Neutral</center></label></td>
+    <td><label for=""><center>satisfied</center></label></td>
+    <td><label for=""><center>Very satisfied</center></label></td>
+
+      <tr style="background-color: lightgrey;" height="25px">
+        <td>
+          <label for="">purchase</label>
+        </td>
+        <td><center><input type="radio"</center></td>
+        <td><center><input type="radio"</center></td>
+        <td><center><input type="radio"</center></td>
+        <td><center><input type="radio"</center></td>
+        <td><center><input type="radio"</center></td>
+      </tr>
+
+      <tr style="background-color: white;" height="25px">
+        <td>
+          <label for="">Service</label>
+        </td>
+        <td><center><input type="radio"</center></td>
+        <td><center><input type="radio"</center></td>
+        <td><center><input type="radio"</center></td>
+        <td><center><input type="radio"</center></td>
+        <td><center><input type="radio"</center></td>
+      </tr>
+
+      <tr style="background-color: lightgrey;" height="25px">
+        <td>
+          <label for="">Company Overall</label>
+        </td>
+        <td><center><input type="radio"</center></td>
+        <td><center><input type="radio"</center></td>
+        <td><center><input type="radio"</center></td>
+        <td><center><input type="radio"</center></td>
+        <td><center><input type="radio"</center></td>
+      </tr>
+  
+      <table style="text-align:center";>
+      
+        <tr height="25px">
+          <td></td>
+          <td><label for=""><center>Very Unlikely</center></label></td>
+          <td><label for=""><center>Unlikely</center></label></td>
+          <td><label for=""><center>Neutral</center></label></td>
+          <td><label for=""><center>likely</center></label></td>
+          <td><label for=""><center>Very likely</center></label></td>
+        </tr>
+        <tr style="background-color: lightgrey;" height="25px">
+          <td><label fro="">Buy from us again</label></td>
+          <td><center><input type="radio"</center></td>
+          <td><center><input type="radio"</center></td>
+          <td><center><input type="radio"</center></td>
+          <td><center><input type="radio"</center></td>
+          <td><center><input type="radio"</center></td>
+        </tr>
+        <tr style="background-color: white;" height="25px">
+          <td><label for="">Recommend our <br>products to others</label></td>
+          <td><center><input type="radio"</center></td>
+          <td><center><input type="radio"</center></td>
+          <td><center><input type="radio"</center></td>
+          <td><center><input type="radio"</center></td>
+          <td><center><input type="radio"</center></td>
+        </tr>
+        <tr style="background-color: lightgrey;" height="25px">
+          <td><label for="">Recommend our <br>company to others</label></td>
+          <td><center><input type="radio"</center></td>
+          <td><center><input type="radio"</center></td>
+          <td><center><input type="radio"</center></td>
+          <td><center><input type="radio"</center></td>
+          <td><center><input type="radio"</center></td>
+        </tr> 
+</table>
+<br>
+<br>
+<label for=""><b>Additional comments or suggestions</b></label>
+<br>
+
+<textarea id=" " name=" " rows="6" cols="70"></textarea>
+<br>
+
+<input type="submit" value="Submit" border-radius="2px";>  
+      </div>
+      </div>
+      </div>
+    </div>
+</div>
+</form>
+</body></html>
+ 
